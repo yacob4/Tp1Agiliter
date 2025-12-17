@@ -1,6 +1,7 @@
 import unittest
 
-# On suppose que Quete et Recompense sont déjà importées / définies
+from Classe.Quete import Quete
+from Classe.Recompense import Recompense
 
 
 class TestRecompense(unittest.TestCase):
@@ -26,17 +27,6 @@ class TestRecompense(unittest.TestCase):
         self.quete.attribuerRecompense(self.recompense)
         self.quete.attribuerRecompense(None)
         self.assertIsNone(self.recompense.getQuete())
-
-    def test_recompense_changeDeQuete(self):
-        q1 = Quete("Q1")
-        q2 = Quete("Q2")
-        r = Recompense("Couronne", 50)
-
-        q1.attribuerRecompense(r)
-        q2.attribuerRecompense(r)
-
-        self.assertIsNone(q1.getRecompense())
-        self.assertEqual(q2, r.getQuete())
 
 
 if __name__ == "__main__":

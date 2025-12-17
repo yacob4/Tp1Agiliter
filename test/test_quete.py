@@ -1,6 +1,7 @@
 import unittest
 
-# On suppose que Quete et Recompense sont déjà importées / définies
+from Classe.Quete import Quete
+from Classe.Recompense import Recompense
 
 
 class TestQuete(unittest.TestCase):
