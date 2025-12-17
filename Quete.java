@@ -9,8 +9,8 @@ public class Quete {
         this.xp = 0;
     }
     
-
     public String getTitre() { return titre; }
+    
     public int getXp() { return xp; }
 
     public void setTitre(String titre) { this.titre = titre; }
