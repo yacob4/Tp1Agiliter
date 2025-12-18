@@ -25,7 +25,47 @@ Bienvenue, **aventurier du code**.
 Ce tutoriel est une **aventure pédagogique** dont l’objectif est double :
 
 - 🧠 comprendre la **programmation orientée objet**
-- 🧪 apprendre à **tester et valider son monde** avec **JUnit**
+- 🧪 apprendre à **tester et valider son monde** avec **des tests**
 
 Chaque action réussie vous fera **gagner de l’XP**.  
 Chaque erreur… vous apprendra quelque chose.
+
+---
+
+## 📜 Chapitre 1 – Naissance d’une Quête
+
+Nous commençons notre aventure en créant notre **objet principal** :  
+✨ **la Quête**.
+
+Dans ce monde, une quête n’est pas un simple mot.  
+Elle possède des caractéristiques bien précises :
+
+- 🏷️ un **titre**
+- ✨ une quantité d’**expérience (XP)** gagnée au fil des actions
+
+---
+
+### 🧱 Création de la classe `Quete`
+
+Pour créer notre classe **Quete**, il suffit de :
+
+1. Faire un **clic droit** dans BlueJ  
+2. Choisir **Nouvelle classe**
+3. Sélectionner :
+   - **Langage** : Java  
+   - **Type** : Classe  
+   - **Nom** : `Quete`
+📸 *Création de la classe `Quete` dans BlueJ*  
+
+![Création de la classe Quete](photo/image1.png)
+Une fois la classe créée, nous devons la compiler.
+
+concernant le code on retrouve le titre en string (chaine de caractère)
+Puis l’EX en Int (nombre pas décimaux)
+Un constructeur et l’encapsulation
+Et enfin une méthode « ajouterXP » qui permet de gagner de
+l’EX, pour cela on doit vérifier si on gagne de l’EX puis
+l’ajouter a l’expérience déjà existante
+![Création de la classe Quete en code !!](photo/image2.png)
+
+
