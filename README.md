@@ -60,34 +60,54 @@ Pour créer notre classe **Quete**, il suffit de :
 ![Création de la classe Quete](photo/Image1.png)
 Une fois la classe créée, nous devons la compiler.
 
-concernant le code on retrouve le titre en string (chaine de caractère)
-Puis l’EX en Int (nombre pas décimaux)
-Un constructeur et l’encapsulation
-Et enfin une méthode « ajouterXP » qui permet de gagner de
-l’EX, pour cela on doit vérifier si on gagne de l’EX puis
-l’ajouter a l’expérience déjà existante
-![Création de la classe Quete en code !!](photo/Image2.png)
-🧠 Pourquoi cette méthode ?
+### Structure interne de la Quête
+
+Une quête doit pouvoir stocker son état et évoluer dans le temps.
+
+Pour cela, nous lui ajoutons :
+- un **titre** (`String`)
+- une **expérience** (`int`)
+- un **constructeur**
+- une méthode permettant de gagner de l’XP
+
+```java
+public class Quete {
+    private String titre;
+    private int xp;
+
+    public Quete(String titre) {
+        this.titre = titre;
+        this.xp = 0;
+    }
+
+    public String getTitre() {
+        return titre;
+    }
+
+    public int getXp() {
+        return xp;
+    }
+
+    public void ajouterXP(int points) {
+        if (points <= 0) return;
+        xp += points;
+    }
+}
 Avant d’ajouter de l’XP, nous vérifions que la valeur est valide.
 Une quête ne peut progresser que par des actions positives.
 
-🧙‍♂️ Naissance de la guilde d’aventuriers
 
-À présent, notre guilde d’aventuriers est prête à créer des quêtes.
-
-Mais comment donner vie à une quête ?
-
-🔥 Instanciation d’une Quête
+Donner vie à une Quête
+Notre guilde d’aventuriers est maintenant prête.
+Il ne reste plus qu’à créer une véritable quête.
 
 Dans BlueJ :
 
-Clic droit sur la classe Quete
+clic droit sur la classe Quete
 
-Choisir new Quete(String titre)
+choisir new Quete(String titre)
 
-Donner un nom à la quête
-
-![Création d'une Instance de Quete!!](photo/Image3.png)
+donner un nom à la quête
 
 
 🎉 Félicitations !
