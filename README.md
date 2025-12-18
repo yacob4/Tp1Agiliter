@@ -146,10 +146,6 @@ Pour cela :
 2. Choisir la méthode `ajouterXP(int points)`
 3. Entrer une valeur positive (par exemple `25`)
 
-<p align="center">
-  <img src="photo/Image6.png" alt="Appel de la méthode ajouterXP" width="450"/>
-</p>
-
 La quête progresse.  
 Son état interne a changé.
 
@@ -164,7 +160,7 @@ Pour vérifier le résultat, nous utilisons la méthode `getXp()`.
 3. Observer la valeur retournée
 
 <p align="center">
-  <img src="photo/Image7.png" alt="Résultat de la méthode getXp" width="400"/>
+  <img src="photo/Image6.png" alt="Résultat de la méthode getXp" width="400"/>
 </p>
 
 Le résultat confirme que l’expérience a bien été ajoutée.
