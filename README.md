@@ -57,7 +57,7 @@ Pour créer notre classe **Quete**, il suffit de :
    - **Nom** : `Quete`
 📸 *Création de la classe `Quete` dans BlueJ*  
 
-![Création de la classe Quete](photo/image1.png)
+![Création de la classe Quete](photo/Image1.png)
 Une fois la classe créée, nous devons la compiler.
 
 concernant le code on retrouve le titre en string (chaine de caractère)
@@ -66,6 +66,31 @@ Un constructeur et l’encapsulation
 Et enfin une méthode « ajouterXP » qui permet de gagner de
 l’EX, pour cela on doit vérifier si on gagne de l’EX puis
 l’ajouter a l’expérience déjà existante
-![Création de la classe Quete en code !!](photo/image2.png)
+![Création de la classe Quete en code !!](photo/Image2.png)
+🧠 Pourquoi cette méthode ?
+Avant d’ajouter de l’XP, nous vérifions que la valeur est valide.
+Une quête ne peut progresser que par des actions positives.
+
+🧙‍♂️ Naissance de la guilde d’aventuriers
+
+À présent, notre guilde d’aventuriers est prête à créer des quêtes.
+
+Mais comment donner vie à une quête ?
+
+🔥 Instanciation d’une Quête
+
+Dans BlueJ :
+
+Clic droit sur la classe Quete
+
+Choisir new Quete(String titre)
+
+Donner un nom à la quête
+
+![Création d'une Instance de Quete!!](photo/Image3.png)
 
 
+🎉 Félicitations !
+Vous avez réussi à créer une classe et à l’instancier.
+
+🏆 Vous gagnez 10 XP
