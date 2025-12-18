@@ -57,7 +57,10 @@ Pour créer notre classe **Quete**, il suffit de :
    - **Nom** : `Quete`
 📸 *Création de la classe `Quete` dans BlueJ*  
 
-![Création de la classe Quete](photo/Image1.png)
+
+<p align="center">
+  <img src="photo/Image1.png" alt="Création d'une instance de Quete" width="450"/>
+</p>
 
 Une fois la classe créée, nous devons la compiler.
 
@@ -72,8 +75,9 @@ Nous lui ajoutons donc :
 - un **constructeur**
 - une méthode permettant de **gagner de l’XP**
 
-![Création de la classe Quete](photo/Image2.png)
-
+<p align="center">
+  <img src="photo/Image2.png" alt="Création d'une instance de Quete" width="450"/>
+</p>
 
 Avant d’ajouter de l’XP, nous vérifions que la valeur est valide.
 Une quête ne progresse que par des actions positives.
@@ -106,3 +110,78 @@ Pour donner vie à la quête :
 Vous avez créé une classe et lui avez donné vie.
 
 🏆 +10 XP
+
+
+
+## 🔥 Chapitre 2 — La Quête prend vie
+
+> *Une quête créée n’est encore qu’un potentiel.*  
+> *Pour exister réellement, elle doit évoluer.*
+
+Maintenant que notre classe `Quete` est instanciée, il est temps de lui **donner vie**.  
+Pour cela, nous allons utiliser les **méthodes** que nous avons définies.
+
+---
+
+### 🧠 Découvrir les méthodes de la Quête
+
+En inspectant une instance de `Quete` dans **BlueJ**, nous pouvons observer toutes les méthodes disponibles :
+
+- `ajouterXP(int points)` → permet de faire progresser la quête
+- `getXp()` → permet de connaître l’expérience actuelle
+- `getTitre()` → permet de récupérer le nom de la quête
+
+<p align="center">
+  <img src="photo/Image5.png" alt="Liste des méthodes de la classe Quete" width="500"/>
+</p>
+
+---
+
+### ✨ Gagner de l’expérience (XP)
+
+La première action possible est d’ajouter de l’expérience à la quête.
+
+Pour cela :
+1. **Clic droit** sur l’instance de `Quete`
+2. Choisir la méthode `ajouterXP(int points)`
+3. Entrer une valeur positive (par exemple `25`)
+
+<p align="center">
+  <img src="photo/Image6.png" alt="Appel de la méthode ajouterXP" width="450"/>
+</p>
+
+La quête progresse.  
+Son état interne a changé.
+
+---
+
+### 🔍 Observer l’évolution de la Quête
+
+Pour vérifier le résultat, nous utilisons la méthode `getXp()`.
+
+1. **Clic droit** sur l’instance
+2. Sélectionner `getXp()`
+3. Observer la valeur retournée
+
+<p align="center">
+  <img src="photo/Image7.png" alt="Résultat de la méthode getXp" width="400"/>
+</p>
+
+Le résultat confirme que l’expérience a bien été ajoutée.
+
+---
+
+🎉 **Félicitations !**  
+Vous avez réussi à :
+- utiliser une méthode
+- modifier l’état d’un objet
+- observer le résultat de cette modification
+
+🏆 **+20 XP**
+
+---
+
+> *La quête avance…*  
+> *Mais une grande aventure mérite toujours une récompense.*
+
+➡️ **Chapitre suivant :** 💎 *L’apparition d’une Récompense*
