@@ -58,6 +58,7 @@ Pour créer notre classe **Quete**, il suffit de :
 📸 *Création de la classe `Quete` dans BlueJ*  
 
 ![Création de la classe Quete](photo/Image1.png)
+
 Une fois la classe créée, nous devons la compiler.
 
 ---
@@ -71,29 +72,8 @@ Nous lui ajoutons donc :
 - un **constructeur**
 - une méthode permettant de **gagner de l’XP**
 
-```java
-public class Quete {
-    private String titre;
-    private int xp;
+![Création de la classe Quete](photo/Image2.png)
 
-    public Quete(String titre) {
-        this.titre = titre;
-        this.xp = 0;
-    }
-
-    public String getTitre() {
-        return titre;
-    }
-
-    public int getXp() {
-        return xp;
-    }
-
-    public void ajouterXP(int points) {
-        if (points <= 0) return;
-        xp += points;
-    }
-}
 
 Avant d’ajouter de l’XP, nous vérifions que la valeur est valide.
 Une quête ne progresse que par des actions positives.
@@ -108,11 +88,10 @@ clic droit sur la classe Quete
 
 choisir new Quete(String titre)
 
-donner un nom à la quête*
-
-📸 *Création de la classe `Quete` dans BlueJ*  
-
+donner un nom à la quête
 ![Création de la classe Quete](photo/Image3.png)
+![Création de la classe Quete](photo/Image4.png)
+
 
 🎉 Félicitations !
 Vous avez créé une classe et lui avez donné vie.
