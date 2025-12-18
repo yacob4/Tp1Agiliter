@@ -82,15 +82,24 @@ Une quête ne progresse que par des actions positives.
 Notre guilde d’aventuriers est maintenant prête.
 Il ne reste plus qu’à créer une véritable quête.
 
-Dans BlueJ :
+#### 🛠️ Dans BlueJ
 
-clic droit sur la classe Quete
+Pour donner vie à la quête :
 
-choisir new Quete(String titre)
+1. **Clic droit** sur la classe `Quete`
+2. Sélectionner `new Quete(String titre)`
+3. Donner un **nom** à la quête
 
-donner un nom à la quête
-![Création de la classe Quete](photo/Image3.png)
-![Création de la classe Quete](photo/Image4.png)
+<p align="center">
+  <img src="photo/Image3.png" alt="Création d'une instance de Quete" width="450"/>
+</p>
+
+<p align="center">
+  <img src="photo/Image4.png" alt="Inspection de la Quete" width="450"/>
+</p>
+
+---
+
 
 
 🎉 Félicitations !
