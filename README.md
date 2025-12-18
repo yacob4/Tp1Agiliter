@@ -60,15 +60,17 @@ Pour créer notre classe **Quete**, il suffit de :
 ![Création de la classe Quete](photo/Image1.png)
 Une fois la classe créée, nous devons la compiler.
 
+---
+
 ### Structure interne de la Quête
 
-Une quête doit pouvoir stocker son état et évoluer dans le temps.
+Pour évoluer, une quête doit mémoriser son état et pouvoir changer dans le temps.
 
-Pour cela, nous lui ajoutons :
+Nous lui ajoutons donc :
 - un **titre** (`String`)
 - une **expérience** (`int`)
 - un **constructeur**
-- une méthode permettant de gagner de l’XP
+- une méthode permettant de **gagner de l’XP**
 
 ```java
 public class Quete {
@@ -93,11 +95,11 @@ public class Quete {
         xp += points;
     }
 }
+<p align="center"> <img src="photo/Image2.png" alt="Code de la classe Quete" width="650"/> </p>
 Avant d’ajouter de l’XP, nous vérifions que la valeur est valide.
-Une quête ne peut progresser que par des actions positives.
+Une quête ne progresse que par des actions positives.
 
-
-Donner vie à une Quête
+🔥 Donner vie à une Quête
 Notre guilde d’aventuriers est maintenant prête.
 Il ne reste plus qu’à créer une véritable quête.
 
@@ -109,8 +111,8 @@ choisir new Quete(String titre)
 
 donner un nom à la quête
 
-
+<p align="center"> <img src="photo/Image3.png" alt="Instantiation de la Quete" width="450"/> </p>
 🎉 Félicitations !
-Vous avez réussi à créer une classe et à l’instancier.
+Vous avez créé une classe et lui avez donné vie.
 
-🏆 Vous gagnez 10 XP
+🏆 +10 XP
