@@ -95,7 +95,7 @@ public class Quete {
         xp += points;
     }
 }
-<p align="center"> <img src="photo/Image2.png" alt="Code de la classe Quete" width="650"/> </p>
+![Création de la classe Quete](photo/Image2.png)
 Avant d’ajouter de l’XP, nous vérifions que la valeur est valide.
 Une quête ne progresse que par des actions positives.
 
@@ -106,10 +106,12 @@ Il ne reste plus qu’à créer une véritable quête.
 Dans BlueJ :
 
 clic droit sur la classe Quete
-
 choisir new Quete(String titre)
-
 donner un nom à la quête
+![Création de la classe Quete](photo/Image3.png)
+![Création de la classe Quete](photo/Image4.png)
+
+
 
 <p align="center"> <img src="photo/Image3.png" alt="Instantiation de la Quete" width="450"/> </p>
 🎉 Félicitations !
